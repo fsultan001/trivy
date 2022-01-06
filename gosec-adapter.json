@@ -14,9 +14,11 @@
       ],
       "success": {
         "Resources.MyTask.Success": true,
+        "Resources.GoSec.Enabled": true
       },
       "failure": {
         "Resources.MyTask.Success": false,
+        "Resources.GoSec.Enabled": true
       }
     }
   }
