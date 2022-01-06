@@ -7,7 +7,7 @@
       "conditions": [
         "Prescription.Security.Activities.Sast.Enabled"
       ],
-      "command": ["sh", "/path/to/my/coverityscript.sh"],
+      "command": ["sh", "gosec.sh"],
       "optional": ["Project.Branch.Name"],
       "require": [
         "Project.Name"
