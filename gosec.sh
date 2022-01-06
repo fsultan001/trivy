@@ -2,3 +2,5 @@
 
 
 gosec --help
+
+pwd
