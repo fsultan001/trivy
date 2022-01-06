@@ -1,6 +1,6 @@
 [
   {
-    "name": "ioGoSec",
+    "name": "GoSec Runner",
     "type": "SimpleExecutable",
     "stage": "execution",
     "config": {
