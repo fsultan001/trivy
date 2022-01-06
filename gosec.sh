@@ -3,4 +3,3 @@
 
 gosec --help
 
-pwd
