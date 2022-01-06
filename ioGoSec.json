@@ -1,0 +1,23 @@
+[
+  {
+    "name": "ioGoSec",
+    "type": "SimpleExecutable",
+    "stage": "execution",
+    "config": {
+      "conditions": [
+        "Prescription.Security.Activities.Sast.Enabled"
+      ],
+      "command": ["sh", "/path/to/my/coverityscript.sh"],
+      "optional": ["Project.Branch.Name"],
+      "require": [
+        "Project.Name"
+      ],
+      "success": {
+        "Resources.MyTask.Success": true,
+      },
+      "failure": {
+        "Resources.MyTask.Success": false,
+      }
+    }
+  }
+]
