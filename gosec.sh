@@ -4,10 +4,10 @@ curl -O https://storage.googleapis.com/golang/go1.13.5.linux-amd64.tar.gz
 
 tar -xvf go1.13.5.linux-amd64.tar.gz
 
-mv go /usr/local
+mv go /tmp/local
 
 export GOPATH=$HOME/work
-export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+export PATH=$PATH:/tmp/local/go/bin:$GOPATH/bin
 
 curl -sfL https://raw.githubusercontent.com/securego/gosec/master/install.sh | sh -s latest
 
