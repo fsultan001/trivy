@@ -1,7 +1,6 @@
 #!/bin/bash
 
-
-go install github.com/securego/gosec/v2/cmd/gosec@latest
+curl -sfL https://raw.githubusercontent.com/securego/gosec/master/install.sh | sh -s latest
 
 gosec -fmt=json -out=gosec-results.json ./...
 
