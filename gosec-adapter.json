@@ -1,7 +1,7 @@
 [
   {
     "name": "GoSec Runner",
-    "type": "ConfiguredExecutable",
+    "type": "SimpleExecutable",
     "stage": "execution",
     "config": {
       "conditions": [
